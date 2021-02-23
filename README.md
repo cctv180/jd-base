@@ -16,8 +16,6 @@
 ```
 -v /安装目录/jd/scripts:/jd/scripts \
 ```
-如你是旁路由，请把-p 5678:5678 \替换成--network host \
-
 node基础镜像
 ```
 noobx/jd:gitee
@@ -77,4 +75,3 @@ docker run -d \
     containrrr/watchtower \
     --cleanup
 ```
-12
